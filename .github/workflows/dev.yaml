@@ -1,0 +1,13 @@
+name: Makes CI
+on: [push, pull_request]
+jobs:
+  helloWorld:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: docker://ghcr.io/fluidattacks/makes:21.11
+      name: helloWorld
+      env:
+        SECRET_NAME: this-shoulf-be-a-secret
+      with:
+        args: m . /helloWorld 1 2 3
