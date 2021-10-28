@@ -1,5 +1,5 @@
 name: Makes CI
-on: [push, pull_request]
+on: [push]
 jobs:
   helloWorld:
     runs-on: ubuntu-latest
