@@ -1,6 +1,8 @@
 {
-  helloWorld = {
+  lintNix = {
     enable = true;
-    name = "Jane Doe";
+    targets = [
+      "/"
+    ];
   };
 }
