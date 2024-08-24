@@ -1,23 +1,23 @@
-import React from "react";
-import { TwitterFollowCard } from "./TwitterFollowCard.jsx";
-import "./App.css";
+import React from 'react'
+import { TwitterFollowCard } from './TwitterFollowCard.jsx'
+import './App.css'
 
 const users = [
   {
-    userName: "ludsrill",
-    name: "Luis Saavedra",
-    isFollowing: true,
+    userName: 'ludsrill',
+    name: 'Luis Saavedra',
+    isFollowing: true
   },
   {
-    userName: "sdo_usaka",
-    name: "Luis Saavedra",
-    isFollowing: false,
-  },
-];
+    userName: 'sdo_usaka',
+    name: 'Luis Saavedra',
+    isFollowing: false
+  }
+]
 
-export function App() {
+export function App () {
   return (
-    <React.Fragment>
+    <>
       {users.map(({ userName, name, isFollowing }) => (
         <TwitterFollowCard
           key={userName}
@@ -26,6 +26,6 @@ export function App() {
           isFollowing={isFollowing}
         />
       ))}
-    </React.Fragment>
-  );
+    </>
+  )
 }
