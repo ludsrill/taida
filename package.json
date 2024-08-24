@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/ludsrill/taida/issues"
   },
-  "homepage": "https://github.com/ludsrill/taida#readme"
+  "homepage": "https://github.com/ludsrill/taida#readme",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+
 }
