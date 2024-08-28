@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 
 export function useCatImage ({ fact }) {
   const [catImage, setCatImage] = useState()
+
   useEffect(() => {
     if (!fact) return
     const firstWord = fact.split(' ', 3).join(' ')
