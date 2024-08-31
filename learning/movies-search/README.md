@@ -8,5 +8,5 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-API key 
-http://www.omdbapi.com/?s=${movies}&apikey=
+API key c4e3bd5a
+http://www.omdbapi.com/?s=${movies}&apikey=c4e3bd5a
