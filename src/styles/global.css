@@ -16,7 +16,7 @@ html[data-theme="dark"] {
   --background: #2f3741;
   --foreground: hsl(220 30% 95%);
   --muted: hsl(226 18% 70%);
-  --border: hsl(228 16% 30%);
+  --border: hsl(228, 11%, 45%);
   --accent: #2daaac;
 }
 
