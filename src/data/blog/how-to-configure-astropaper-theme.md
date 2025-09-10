@@ -39,7 +39,7 @@ export const SITE = {
   editPost: {
     enabled: true,
     text: "Suggest Changes",
-    url: "https://github.com/satnaing/astro-paper/edit/main/",
+    url: "https://github.com/ludsrill/taida/edit/main/",
   },
   dynamicOgImage: true, // enable automatic dynamic og-image generation
   dir: "ltr", // "rtl" | "auto"
